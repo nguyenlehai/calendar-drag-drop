@@ -1,0 +1,49 @@
+.exerciseList {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 4px;
+}
+
+.exerciseWrapper {
+    padding: 5px 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    align-items: stretch;
+    border-radius: 3px;
+    border: 1px solid #dfdfdf;
+    box-shadow: 0 0 4px 0 #0000001a;
+    background-color: white;
+    user-select: none;
+    cursor: pointer;
+}
+
+.exerciseTitle {
+    max-width: 120px;
+    text-align: right;
+    margin-left: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.exerciseContent {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.exQuantity {
+    font-weight: 700;
+    color: #919cad;
+}
+
+.exDesc {
+    color: #95a6b7;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
