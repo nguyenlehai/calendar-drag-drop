@@ -3,7 +3,6 @@
 ## Tech Stack
 - Vite + React 18 + TypeScript
 - dnd kit (drag and drop toolkit)
-- Support web view and mobile view
 
 ### Development
 
