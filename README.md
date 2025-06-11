@@ -1,4 +1,4 @@
-# Everfit Calendar
+# Calendar
 
 ## Tech Stack
 - Vite + React 18 + TypeScript
